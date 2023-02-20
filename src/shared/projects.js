@@ -5,8 +5,9 @@ export const Projects = [
     subject: "UI Design, Web Design/Development",
     description:
       "My portfolio website! UI process of moodboarding, wireframing, prototyping, and developing. ",
-    image: "/assets/images/response.jpeg",
+    image: "/assets/images/screenshots/portfoliowebsite.png",
     github: "https://github.com/qoustynnn/portfolioWebsite",
+    websiteUrl: "https://qoustynyang.netlify.app/"
   },
   {
     id: 1,
@@ -16,7 +17,7 @@ export const Projects = [
     image: "/assets/images/screenshots/everlesswebsite.jpg",
     thumb: "/assets/images/screenshots/thumbnail.png",
     github: "https://github.com/qoustynnn/EverlessCafe",
-    websiteUrl: "",
+    websiteUrl: "https://everlesscafe.netlify.app/",
   },
   {
     id: 2,
@@ -35,6 +36,7 @@ export const Projects = [
       "A React-developed website for NuCamp that showcases its campsites, reviews, and booking!",
     image: "/assets/images/screenshots/nucampwebsite.jpg",
     github: "https://github.com/qoustynnn/nuCampWebsite",
+    websiteUrll: "https://nucampwebsiteproj.netlify.app/home"
   },
   {
     id: 4,
@@ -50,6 +52,7 @@ export const Projects = [
     subject: "Web Development",
     description: "A static NuCamp website developed with Bootstrap.",
     image: "/assets/images/screenshots/nucampwebsite.jpg",
-    github: "",
+    github: "https://github.com/qoustynnn/nuCampWebsite",
+    websiteUrll: "https://nucampwebsiteproj.netlify.app/home"
   },
 ];
