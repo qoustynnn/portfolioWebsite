@@ -15,11 +15,11 @@ function Home() {
     <React.Fragment>
       <div className="header" id="home" href="#home">
         <div className="header-box text-center container">
-          <h1>Hello! I'm Qoustyn.</h1>
+          <h1>Hello! I'm <span className="fill-effect"> // Qoustyn // </span></h1>
           <h2>
-            Welcome to my joyful space on the <br /> internet.
+            Welcome to my <span className="fill-effect">joyful</span> space on the <br /> internet.
           </h2>
-          <p className="header-desc">I'm a UI and Front-end Developer.</p>
+          <p className="header-desc">I'm a <span className="fill-effect">UI</span> and <span className="fill-effect">Front-end Developer</span>.</p>
           <div className="logo-box">
             <a className="job-links" href="https://github.com/qoustynnn" target="_blank" rel="noreferrer noopener" >
               <FaGithub className="links-logo git-btn" size={55} />

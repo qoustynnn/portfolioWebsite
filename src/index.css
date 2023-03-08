@@ -52,6 +52,18 @@ body {
   animation-iteration-count: 1;
   animation-fill-mode:forwards ;
 }
+
+.fill-effect {
+  color: #fff;
+  transition-duration: .5s;
+  transition-property: color, text-shadow;
+  transition-timing-function: ease;
+  text-shadow: -1px -1px 0 #596847, 1px -1px 0 #596847, -1px 1px 0 #596847, 1px 1px 0 #596847;
+}
+.fill-effect:hover {
+  color: #596847;
+}
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
@@ -79,6 +91,7 @@ h2 {
   line-height: 29px;
   text-align: center;
   color: rgba(99, 99, 99, 0.9);
+  overflow: hidden;
 }
 .header-desc {
   font-family: Gamja Flower;
@@ -210,6 +223,8 @@ h2 {
 }
 .subtitle {
   margin-bottom: 30px;
+  width: 80%;
+  overflow: hidden;
 }
 /* SKILLS SECTION */
 
@@ -232,7 +247,8 @@ h2 {
     font-size: 70px;
   }
   .subtitle {
-    font-size: 1.1rem;
+    font-size: 17.6px;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -482,6 +498,9 @@ figcaption {
   text-align: center;
   margin: 6em;
   padding: 2em;
+}
+.is-three-fifths h2 {
+  align-self: flex-start;
 }
 .footer-header {
   margin-bottom: 35px;
