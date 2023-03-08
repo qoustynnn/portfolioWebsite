@@ -4,7 +4,7 @@ export const Projects = [
     name: "Portfolio Website",
     subject: "UI Design, Web Design/Development",
     description:
-      "My portfolio website! UI process of moodboarding, wireframing, prototyping, and developing. ",
+      "My portfolio website! UI process of moodboarding, wireframing, prototyping, and developing. Developed with React and Bootstrap. ",
     image: "/assets/images/screenshots/portfoliowebsite.png",
     github: "https://github.com/qoustynnn/portfolioWebsite",
     websiteUrl: "https://qoustynyang.netlify.app/"
@@ -13,7 +13,7 @@ export const Projects = [
     id: 1,
     name: "Everless Cafe",
     subject: "UI Design, Web Design/Development",
-    description: "A cafe website inspired by local milk tea businesess!",
+    description: "A cafe website inspired by local milk tea businesess! Developed with React and Bootstrap.",
     image: "/assets/images/screenshots/everlesswebsite.jpg",
     thumb: "/assets/images/screenshots/thumbnail.png",
     github: "https://github.com/qoustynnn/EverlessCafe",
@@ -24,7 +24,7 @@ export const Projects = [
     name: "NuCamp Mobile App",
     subject: "Mobile App Development",
     description:
-      "A mobile app for booking, viewing, and reviewing campsites at select NuCamp locations.",
+      "A mobile app for booking, viewing, and reviewing campsites at select NuCamp locations. Includes form authentication and saved favorited locations in local storage.",
     image: "/assets/images/screenshots/nucampApp.jpg",
     github: "https://github.com/qoustynnn/nuCampApp",
   },
@@ -33,7 +33,7 @@ export const Projects = [
     name: "Nucamp",
     subject: "Web Development",
     description:
-      "A React-developed website for NuCamp that showcases its campsites, reviews, and booking!",
+      "A React-developed website for NuCamp that showcases its campsites, reviews, and booking! Retrieves data and information from a JSON server to display information about campsites, form authentication, and more.",
     image: "/assets/images/screenshots/nucampwebsite.jpg",
     github: "https://github.com/qoustynnn/nuCampWebsite",
     websiteUrll: "https://nucampwebsiteproj.netlify.app/home"
