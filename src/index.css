@@ -62,6 +62,7 @@ body {
 }
 .fill-effect:hover {
   color: #596847;
+  cursor: pointer;
 }
 
 @keyframes fadeInAnimation {

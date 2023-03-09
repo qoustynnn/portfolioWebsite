@@ -36,7 +36,7 @@ export const Projects = [
       "A React-developed website for NuCamp that showcases its campsites, reviews, and booking! Retrieves data and information from a JSON server to display information about campsites, form authentication, and more.",
     image: "/assets/images/screenshots/nucampwebsite.jpg",
     github: "https://github.com/qoustynnn/nuCampWebsite",
-    websiteUrll: "https://nucampwebsiteproj.netlify.app/home"
+    websiteUrl: "https://nucampwebsiteproj.netlify.app/home"
   },
   {
     id: 4,
@@ -53,6 +53,15 @@ export const Projects = [
     description: "A static NuCamp website developed with Bootstrap.",
     image: "/assets/images/screenshots/nucampwebsite.jpg",
     github: "https://github.com/qoustynnn/nuCampWebsite",
-    websiteUrll: "https://nucampwebsiteproj.netlify.app/home"
+    websiteUrl: "https://nucampwebsiteproj.netlify.app/home"
+  },
+  {
+    id: 6,
+    name: "Search by Ingredient",
+    subject: "Web Application with API",
+    description: "A website created with HTML, CSS, and Javascript that utilizes an external API to grab information about food and their recipes that generates based on what the user inputs in the search bar. ",
+    image: "/assets/images/screenshots/foodsearch.png",
+    github: "https://github.com/qoustynnn/recipefoodsearch",
+    websiteUrl: "https://foodrecipesearchappapi.netlify.app/",
   },
 ];
