@@ -71,7 +71,7 @@ export const Projects = [
     description:
       "A recreation of the Netflix website. Includes a functional sign in system that stores and saves your user info in Firebase, and retrieves and updates the state with Redux. Functional sign in system and detection of whether you're signed in, and shows u the corresponding updates.",
     image: "/assets/images/screenshots/netfliximg.png",
-    github: "https://github.com/qoustynnn/portfolioWebsite",
+    github: "https://github.com/qoustynnn/netflix-build",
     websiteUrl: "https://netflix-clone-e5b29.web.app/"
   },
 ];
