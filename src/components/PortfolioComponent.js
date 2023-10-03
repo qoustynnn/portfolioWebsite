@@ -15,12 +15,29 @@ function Portfolio() {
           <h1 className="mb-4">My Recent Work</h1>
           <div className="project-grid">
             <div className="row d-flex">
+            <div className="col-sm-12 col-md-6 col-lg-4 column">
+                <figure className="image">
+                  <img className="project-thumb" src={Projects[1].thumb}></img>
+                  <div className="project-thumb-2" />
+                  <figcaption>
+                    <h1 className="text-white font-size">{Projects[7].name}</h1>
+                    <PortfolioData
+                      title={Projects[7].name}
+                      description={Projects[7].description}
+                      subject={Projects[7].subject}
+                      image={Projects[7].image}
+                      github={Projects[7].github}
+                      websiteUrl={Projects[7].websiteUrl}
+                    />
+                  </figcaption>
+                </figure>
+              </div>
               <div className="col-sm-12 col-md-6 col-lg-4 column">
                 <figure className="image">
                   <img className="project-thumb" src={Projects[1].thumb}></img>
                   <div className="project-thumb-2" />
                   <figcaption>
-                    <h1 className="text-white">{Projects[0].name}</h1>
+                    <h1 className="text-white font-size">{Projects[0].name}</h1>
                     <PortfolioData
                       title={Projects[0].name}
                       description={Projects[0].description}
@@ -37,7 +54,7 @@ function Portfolio() {
                   <img className="project-thumb" src={Projects[1].thumb}></img>
                   <div className="project-thumb-2" />
                   <figcaption>
-                    <h1 className="text-white">{Projects[1].name}</h1>
+                    <h1 className="text-white font-size">{Projects[1].name}</h1>
                     <PortfolioData
                       title={Projects[1].name}
                       description={Projects[1].description}
@@ -54,7 +71,7 @@ function Portfolio() {
                   <img className="project-thumb" src={Projects[1].thumb}></img>
                   <div className="project-thumb-2" />
                   <figcaption>
-                    <h1 className="text-white">{Projects[2].name}</h1>
+                    <h1 className="text-white font-size">{Projects[2].name}</h1>
                     <PortfolioData
                       title={Projects[2].name}
                       description={Projects[2].description}
@@ -71,7 +88,7 @@ function Portfolio() {
                   <img className="project-thumb" src={Projects[1].thumb}></img>
                   <div className="project-thumb-2" />
                   <figcaption>
-                    <h1 className="text-white">{Projects[3].name}</h1>
+                    <h1 className="text-white font-size">{Projects[3].name}</h1>
                     <PortfolioData
                       title={Projects[3].name}
                       description={Projects[3].description}
@@ -88,7 +105,7 @@ function Portfolio() {
                   <img className="project-thumb" src={Projects[1].thumb}></img>
                   <div className="project-thumb-2" />
                   <figcaption>
-                    <h1 className="text-white">{Projects[6].name}</h1>
+                    <h1 className="text-white font-size">{Projects[6].name}</h1>
                     <PortfolioData
                       title={Projects[6].name}
                       description={Projects[6].description}
@@ -105,7 +122,7 @@ function Portfolio() {
                   <img className="project-thumb" src={Projects[1].thumb}></img>
                   <div className="project-thumb-2" />
                   <figcaption>
-                    <h1 className="text-white">{Projects[4].name}</h1>
+                    <h1 className="text-white font-size">{Projects[4].name}</h1>
                     <PortfolioData
                       title={Projects[4].name}
                       description={Projects[4].description}
@@ -122,7 +139,7 @@ function Portfolio() {
                   <img className="project-thumb" src={Projects[1].thumb}></img>
                   <div className="project-thumb-2" />
                   <figcaption>
-                    <h1 className="text-white">{Projects[5].name}</h1>
+                    <h1 className="text-white font-size">{Projects[5].name}</h1>
                     <PortfolioData
                       title={Projects[5].name}
                       description={Projects[5].description}

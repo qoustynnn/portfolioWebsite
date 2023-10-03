@@ -40,7 +40,7 @@ export const Projects = [
   },
   {
     id: 4,
-    name: "Everless Cafe Bootstrap",
+    name: "Everless Bootstrap",
     subject: "Web Design/Development",
     description: "A static bootstrap design/website of my Everless Cafe.",
     image: "/assets/images/screenshots/everlesswebsite.jpg",
@@ -63,5 +63,15 @@ export const Projects = [
     image: "/assets/images/screenshots/foodsearch.png",
     github: "https://github.com/qoustynnn/recipefoodsearch",
     websiteUrl: "https://foodrecipesearchappapi.netlify.app/",
+  },
+  {
+    id: 7,
+    name: "Netflix Clone",
+    subject: "Web Design/Development, Back-end Database",
+    description:
+      "A recreation of the Netflix website. Includes a functional sign in system that stores and saves your user info in Firebase, and retrieves and updates the state with Redux. Functional sign in system and detection of whether you're signed in, and shows u the corresponding updates.",
+    image: "/assets/images/screenshots/netfliximg.png",
+    github: "https://github.com/qoustynnn/portfolioWebsite",
+    websiteUrl: "https://netflix-clone-e5b29.web.app/"
   },
 ];
