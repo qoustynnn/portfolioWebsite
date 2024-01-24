@@ -20,6 +20,23 @@ function Portfolio() {
                   <img className="project-thumb" src={Projects[1].thumb}></img>
                   <div className="project-thumb-2" />
                   <figcaption>
+                    <h1 className="text-white font-size">{Projects[8].name}</h1>
+                    <PortfolioData
+                      title={Projects[8].name}
+                      description={Projects[8].description}
+                      subject={Projects[8].subject}
+                      image={Projects[8].image}
+                      github={Projects[8].github}
+                      websiteUrl={Projects[8].websiteUrl}
+                    />
+                  </figcaption>
+                </figure>
+              </div>
+            <div className="col-sm-12 col-md-6 col-lg-4 column">
+                <figure className="image">
+                  <img className="project-thumb" src={Projects[1].thumb}></img>
+                  <div className="project-thumb-2" />
+                  <figcaption>
                     <h1 className="text-white font-size">{Projects[7].name}</h1>
                     <PortfolioData
                       title={Projects[7].name}

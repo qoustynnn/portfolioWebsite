@@ -74,4 +74,13 @@ export const Projects = [
     github: "https://github.com/qoustynnn/netflix-build",
     websiteUrl: "https://netflix-clone-e5b29.web.app/"
   },
+  {
+    id: 8,
+    name: "Pokemon Browser Game",
+    subject: "Web Design / Development, JavaScript Canvas",
+    description: "A browser game inspired by pokemon's battle system and pixel based map layouts. Features battling via the bushes.",
+    image: "/assets/images/screenshots/pokemonscreenshot2.png",
+    github: "https://github.com/qoustynnn/pokemongame",
+    websiteURL: "n/A"
+  }
 ];
