@@ -69,12 +69,12 @@ function Home() {
               <h3 className=" subtitle">
                 I've always been someone who enjoyed logical things, yet I was
                 drawn to the world of imagination and creativity. Front-end web
-                development and UI design was a perfect medium as it allows me
+                development and web design was a perfect medium as it allows me
                 to channel my creativity and my critical thinking logical side.
                 Channeling my creativity allows me to see eye to eye with a designer, making sure
                 there aren't details lost in translation when it comes time to code.
                 When I'm not coding, you can find me enjoying a cup of coffee,
-                completely immersed in a YA fantasy novel.
+                completely immersed in a YA fantasy novel, or learning the art of coffee making.
               </h3>
               <a className="email-btn" href="https://docs.google.com/document/d/1VPQ8lGW5RGgZQi7w321arYmo2WloUJlQWvGVkZ4sYt0/edit?usp=sharing" target="_blank">View Resume</a>
             </div>
